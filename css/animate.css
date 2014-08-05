@@ -1,0 +1,49 @@
+#div-basic-info {
+  opacity: 0;
+}
+@keyframes basic-info {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-moz-keyframes basic-info {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes basic-info {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-o-keyframes basic-info {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+#div-basic-info {
+  animation: basic-info 1s ease 1s 1 normal running forwards;
+  -moz-animation: basic-info 1s ease 1s 1 normal running forwards;
+  -webkit-animation: basic-info 1s ease 1s 1 normal running forwards;
+  -o-animation: basic-info 1s ease 1s 1 normal running forwards;
+}
+
+
+@keyframes basic-info-img {
+  0% {margin-right: 10em;}
+  100% {margin-right: 0;}
+}
+@-moz-keyframes basic-info-img {
+  0% {margin-right: 10em;}
+  100% {margin-right: 0;}
+}
+@-webkit-keyframes basic-info-img {
+  0% {margin-right: 10em;}
+  100% {margin-right: 0;}
+}
+@-o-keyframes basic-info-img {
+  0% {margin-right: 10em;}
+  100% {margin-right: 0;}
+}
+#div-basic-info img {
+  animation: basic-info-img 1s ease 1s 1 normal running forwards;
+  -moz-animation: basic-info-img 1s ease 1s 1 normal running forwards;
+  -webkit-animation: basic-info-img 1s ease 1s 1 normal running forwards;
+  -o-animation: basic-info-img 1s ease 1s 1 normal running forwards;
+}

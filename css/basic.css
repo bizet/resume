@@ -1,0 +1,10 @@
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#div-basic-info img {
+  width: 40%;
+  float: right;
+}
