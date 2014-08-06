@@ -1,4 +1,5 @@
-#div-basic-info {
+#div-basic-info,
+#div-basic-info li {
   opacity: 0;
 }
 @keyframes basic-info {
@@ -17,11 +18,11 @@
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
-#div-basic-info {
-  animation: basic-info 1s ease 1s 1 normal running forwards;
-  -moz-animation: basic-info 1s ease 1s 1 normal running forwards;
-  -webkit-animation: basic-info 1s ease 1s 1 normal running forwards;
-  -o-animation: basic-info 1s ease 1s 1 normal running forwards;
+.div-basic-info {
+  animation: basic-info 1s ease 300ms 1 normal running forwards;
+  -moz-animation: basic-info 1s ease 300ms 1 normal running forwards;
+  -webkit-animation: basic-info 1s ease 300ms 1 normal running forwards;
+  -o-animation: basic-info 1s ease 300ms 1 normal running forwards;
 }
 
 
@@ -41,9 +42,47 @@
   0% {margin-right: 10em;}
   100% {margin-right: 0;}
 }
-#div-basic-info img {
-  animation: basic-info-img 1s ease 1s 1 normal running forwards;
-  -moz-animation: basic-info-img 1s ease 1s 1 normal running forwards;
-  -webkit-animation: basic-info-img 1s ease 1s 1 normal running forwards;
-  -o-animation: basic-info-img 1s ease 1s 1 normal running forwards;
+.div-basic-info img {
+  animation: basic-info-img 1s ease 300ms 1 normal running forwards;
+  -moz-animation: basic-info-img 1s ease 300ms 1 normal running forwards;
+  -webkit-animation: basic-info-img 1s ease 300ms 1 normal running forwards;
+  -o-animation: basic-info-img 1s ease 300ms 1 normal running forwards;
+}
+
+@keyframes basic-info-li {
+  0% {margin-left: 3em;opacity: 0}
+  100% {margin-left: 0;opacity: 100}
+}
+@-moz-keyframes basic-info-li {
+  0% {margin-left: 3em;opacity: 0}
+  100% {margin-left: 0;opacity: 100}
+}
+@-webkit-keyframes basic-info-li {
+  0% {margin-left: 3em;opacity: 0}
+  100% {margin-left: 0;opacity: 100}
+}
+@-o-keyframes basic-info-li {
+  0% {margin-left: 3em;opacity: 0}
+  100% {margin-left: 0;opacity: 100}
+}
+
+.div-basic-info ul li.a {
+  animation: basic-info-li 1s ease 300ms 1 normal running forwards;
+  -moz-animation: basic-info-li 1s ease 300ms 1 normal running forwards;
+  -webkit-animation: basic-info-li 1s ease 300ms 1 normal running forwards;
+  -o-animation: basic-info-li 1s ease 300ms 1 normal running forwards;
+}
+
+.div-basic-info ul li.b {
+  animation: basic-info-li 1s ease 500ms 1 normal running forwards;
+  -moz-animation: basic-info-li 1s ease 500ms 1 normal running forwards;
+  -webkit-animation: basic-info-li 1s ease 500ms 1 normal running forwards;
+  -o-animation: basic-info-li 1s ease 500ms 1 normal running forwards;
+}
+
+.div-basic-info ul li.c {
+  animation: basic-info-li 1s ease 700ms 1 normal running forwards;
+  -moz-animation: basic-info-li 1s ease 700ms 1 normal running forwards;
+  -webkit-animation: basic-info-li 1s ease 700ms 1 normal running forwards;
+  -o-animation: basic-info-li 1s ease 700ms 1 normal running forwards;
 }
