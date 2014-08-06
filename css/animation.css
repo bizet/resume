@@ -1,0 +1,16 @@
+@keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 100}
+}
+@-moz-keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 100}
+}
+@-webkit-keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 100}
+}
+@-o-keyframes fade-in {
+  0% {opacity: 0}
+  100% {opacity: 100}
+}

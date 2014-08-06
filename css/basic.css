@@ -16,7 +16,7 @@ body {
 
 section {
   position: relative;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .page-header h1 small {
@@ -57,4 +57,14 @@ section {
   font-size: 1em;
   margin: 1em;
   display: inline-block;
+}
+
+#section-alu img {
+  position: relative;
+  float: right;
+  width: 30%;
+}
+
+#section-end {
+  color: black;
 }
