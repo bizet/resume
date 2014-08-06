@@ -18,6 +18,13 @@ define(['jquery'], function($) {
     resize: function(size) {
       var rate = size/10;
       this.elem.css('font-size', rate + '%');
+      var b_height = 0;
+      this.elem.children().each(function() {
+        if ($(this).height() > b_height ) {
+          b_height = $(this).height();
+        }
+      });
+      this.elem.height(b_height);
     }
   };
 
