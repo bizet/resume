@@ -4,6 +4,12 @@ require(['requirejs.config'] , function() {
       require([
         'model/animate.model'
       ], function(Animate) {
+        /*
+          if((!!navigator.userAgent.match(/Trident\/7\./))) {
+            $('body').html('Not Support Stupid IE');
+            return;
+          };
+          */
           var init_win_width = $(window).width();
           var sections = [];
           sections.push(new Animate({
@@ -21,6 +27,10 @@ require(['requirejs.config'] , function() {
           sections.push(new Animate({
             elem: $('#section-huawei'),
             animate_css: 'section-huawei',
+          }));
+          sections.push(new Animate({
+            elem: $('#section-end'),
+            animate_css: 'section-end',
           }));
           $(window).scroll(function() {
             $(sections).each(function() {

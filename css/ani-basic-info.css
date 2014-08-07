@@ -3,10 +3,10 @@
   opacity: 0;
 }
 .section-basic-info {
-  animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 300ms 1 normal running forwards;
+  -webkit-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 300ms 1 normal forwards;
+  animation: fade-in 1s ease 300ms 1 normal forwards;
 }
 
 
@@ -27,10 +27,10 @@
   100% {margin-right: 0;}
 }
 .section-basic-info img {
-  animation: basic-info-img 1500ms ease 300ms 1 normal running forwards;
-  -moz-animation: basic-info-img 1500ms ease 300ms 1 normal running forwards;
-  -webkit-animation: basic-info-img 1500ms ease 300ms 1 normal running forwards;
-  -o-animation: basic-info-img 1500ms ease 300ms 1 normal running forwards;
+  animation: basic-info-img 1500ms ease 300ms 1 normal forwards;
+  -moz-animation: basic-info-img 1500ms ease 300ms 1 normal forwards;
+  -webkit-animation: basic-info-img 1500ms ease 300ms 1 normal forwards;
+  -o-animation: basic-info-img 1500ms ease 300ms 1 normal forwards;
 }
 
 @keyframes basic-info-li {
@@ -51,67 +51,67 @@
 }
 
 .section-basic-info ul li.a {
-  animation: basic-info-li 1s ease 900ms 1 normal running forwards, 
-              fade-in 1s ease 900ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 900ms 1 normal running forwards, 
-              fade-in 1s ease 900ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 900ms 1 normal running forwards, 
-              fade-in 1s ease 900ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 900ms 1 normal running forwards, 
-              fade-in 1s ease 900ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 900ms 1 normal forwards, 
+              fade-in 1s ease 900ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 900ms 1 normal forwards, 
+              fade-in 1s ease 900ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 900ms 1 normal forwards, 
+              fade-in 1s ease 900ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 900ms 1 normal forwards, 
+              fade-in 1s ease 900ms 1 normal forwards;
 }
 
 .section-basic-info ul li.b {
-  animation: basic-info-li 1s ease 1100ms 1 normal running forwards, 
-              fade-in 1s ease 1100ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 1100ms 1 normal running forwards, 
-              fade-in 1s ease 1100ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 1100ms 1 normal running forwards, 
-              fade-in 1s ease 1100ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 1100ms 1 normal running forwards, 
-              fade-in 1s ease 1100ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 1100ms 1 normal forwards, 
+              fade-in 1s ease 1100ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 1100ms 1 normal forwards, 
+              fade-in 1s ease 1100ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 1100ms 1 normal forwards, 
+              fade-in 1s ease 1100ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 1100ms 1 normal forwards, 
+              fade-in 1s ease 1100ms 1 normal forwards;
 }
 
 .section-basic-info ul li.c {
-  animation: basic-info-li 1s ease 1300ms 1 normal running forwards, 
-              fade-in 1s ease 1300ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 1300ms 1 normal running forwards, 
-              fade-in 1s ease 1300ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 1300ms 1 normal running forwards, 
-              fade-in 1s ease 1300ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 1300ms 1 normal running forwards, 
-              fade-in 1s ease 1300ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 1300ms 1 normal forwards, 
+              fade-in 1s ease 1300ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 1300ms 1 normal forwards, 
+              fade-in 1s ease 1300ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 1300ms 1 normal forwards, 
+              fade-in 1s ease 1300ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 1300ms 1 normal forwards, 
+              fade-in 1s ease 1300ms 1 normal forwards;
 }
 
 .section-basic-info ul li.d {
-  animation: basic-info-li 1s ease 1500ms 1 normal running forwards, 
-              fade-in 1s ease 1500ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 1500ms 1 normal running forwards, 
-              fade-in 1s ease 1500ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 1500ms 1 normal running forwards, 
-              fade-in 1s ease 1500ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 1500ms 1 normal running forwards, 
-              fade-in 1s ease 1500ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 1500ms 1 normal forwards, 
+              fade-in 1s ease 1500ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 1500ms 1 normal forwards, 
+              fade-in 1s ease 1500ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 1500ms 1 normal forwards, 
+              fade-in 1s ease 1500ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 1500ms 1 normal forwards, 
+              fade-in 1s ease 1500ms 1 normal forwards;
 }
 
 .section-basic-info ul li.e {
-  animation: basic-info-li 1s ease 1700ms 1 normal running forwards, 
-              fade-in 1s ease 1700ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 1700ms 1 normal running forwards, 
-              fade-in 1s ease 1700ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 1700ms 1 normal running forwards, 
-              fade-in 1s ease 1700ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 1700ms 1 normal running forwards, 
-              fade-in 1s ease 1700ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 1700ms 1 normal forwards, 
+              fade-in 1s ease 1700ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 1700ms 1 normal forwards, 
+              fade-in 1s ease 1700ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 1700ms 1 normal forwards, 
+              fade-in 1s ease 1700ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 1700ms 1 normal forwards, 
+              fade-in 1s ease 1700ms 1 normal forwards;
 }
 
 .section-basic-info ul li.f {
-  animation: basic-info-li 1s ease 1900ms 1 normal running forwards, 
-              fade-in 1s ease 1900ms 1 normal running forwards;
-  -moz-animation: basic-info-li 1s ease 1900ms 1 normal running forwards, 
-              fade-in 1s ease 1900ms 1 normal running forwards;
-  -webkit-animation: basic-info-li 1s ease 1900ms 1 normal running forwards, 
-              fade-in 1s ease 1900ms 1 normal running forwards;
-  -o-animation: basic-info-li 1s ease 1900ms 1 normal running forwards, 
-              fade-in 1s ease 1900ms 1 normal running forwards;
+  animation: basic-info-li 1s ease 1900ms 1 normal forwards, 
+              fade-in 1s ease 1900ms 1 normal forwards;
+  -moz-animation: basic-info-li 1s ease 1900ms 1 normal forwards, 
+              fade-in 1s ease 1900ms 1 normal forwards;
+  -webkit-animation: basic-info-li 1s ease 1900ms 1 normal forwards, 
+              fade-in 1s ease 1900ms 1 normal forwards;
+  -o-animation: basic-info-li 1s ease 1900ms 1 normal forwards, 
+              fade-in 1s ease 1900ms 1 normal forwards;
 }

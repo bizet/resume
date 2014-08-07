@@ -4,10 +4,10 @@
   opacity: 0;
 }
 .section-huawei {
-  animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 300ms 1 normal running forwards;
+  animation: fade-in 1s ease 300ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 300ms 1 normal forwards;
 }
 
 @keyframes huawei-img {
@@ -28,16 +28,16 @@
 }
 
 .section-huawei img {
-  animation: huawei-img 1s ease 100ms 1 normal running forwards;
-  -moz-animation: huawei-img 1s ease 100ms 1 normal running forwards;
-  -webkit-animation: huawei-img 1s ease 100ms 1 normal running forwards;
-  -o-animation: huawei-img 1s ease 100ms 1 normal running forwards;
+  animation: huawei-img 1s ease 100ms 1 normal forwards;
+  -moz-animation: huawei-img 1s ease 100ms 1 normal forwards;
+  -webkit-animation: huawei-img 1s ease 100ms 1 normal forwards;
+  -o-animation: huawei-img 1s ease 100ms 1 normal forwards;
 }
 
 .section-huawei p,
 .section-huawei h2 {
-  animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 1100ms 1 normal running forwards;
+  animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 1100ms 1 normal forwards;
 }

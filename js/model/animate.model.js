@@ -18,7 +18,14 @@ define(['jquery'], function($) {
       if (!this.done) {
         //if (pos >= this.scroll_pos) {
         if (in_view(this.elem[0])) {
+          this.elem[0].offsetWidth = this.elem[0].offsetWidth;
           this.elem.addClass(this.animate_css);
+          /*
+          var elm = this.elem[0];
+          var newone = elm.cloneNode(true);
+          $(newone).addClass(this.animate_css);
+          elm.parentNode.replaceChild(newone, elm);
+          */
           this.done = true;
         }
       }
@@ -28,8 +35,8 @@ define(['jquery'], function($) {
       this.elem.css('font-size', rate + '%');
       var b_height = 0;
       this.elem.children().each(function() {
-        if ($(this).height() > b_height ) {
-          b_height = $(this).height();
+        if ($(this).outerHeight() > b_height ) {
+          b_height = $(this).outerHeight();
         }
       });
       this.elem.height(b_height);

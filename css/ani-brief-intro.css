@@ -22,59 +22,59 @@
 }
 
 .section-brief-intro ul {
-  animation: brief-intro-ul 1s ease 300ms 1 normal running forwards,
-              fade-in 2s ease 300ms 1 normal running forwards;
-  -moz-animation: brief-intro-ul 1s ease 300ms 1 normal running forwards,
-              fade-in 2s ease 300ms 1 normal running forwards;
-  -webkit-animation: brief-intro-ul 1s ease 300ms 1 normal running forwards,
-              fade-in 2s ease 300ms 1 normal running forwards;
-  -o-animation: brief-intro-ul 1s ease 300ms 1 normal running forwards,
-              fade-in 2s ease 300ms 1 normal running forwards;
+  animation: brief-intro-ul 1s ease 300ms 1 normal forwards,
+              fade-in 2s ease 300ms 1 normal forwards;
+  -moz-animation: brief-intro-ul 1s ease 300ms 1 normal forwards,
+              fade-in 2s ease 300ms 1 normal forwards;
+  -webkit-animation: brief-intro-ul 1s ease 300ms 1 normal forwards,
+              fade-in 2s ease 300ms 1 normal forwards;
+  -o-animation: brief-intro-ul 1s ease 300ms 1 normal forwards,
+              fade-in 2s ease 300ms 1 normal forwards;
 }
 
 #section-brief-intro ul > * {
   opacity: 0;
 }
 .section-brief-intro ul li.a {  
-  animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 300ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 300ms 1 normal running forwards;
+  animation: fade-in 1s ease 300ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 300ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 300ms 1 normal forwards;
 }
 .section-brief-intro ul li.b {  
-  animation: fade-in 1s ease 500ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 500ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 500ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 500ms 1 normal running forwards;
+  animation: fade-in 1s ease 500ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 500ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 500ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 500ms 1 normal forwards;
 }
 .section-brief-intro ul li.c {  
-  animation: fade-in 1s ease 700ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 700ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 700ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 700ms 1 normal running forwards;
+  animation: fade-in 1s ease 700ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 700ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 700ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 700ms 1 normal forwards;
 }
 .section-brief-intro ul li.d {  
-  animation: fade-in 1s ease 900ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 900ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 900ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 900ms 1 normal running forwards;
+  animation: fade-in 1s ease 900ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 900ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 900ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 900ms 1 normal forwards;
 }
 .section-brief-intro ul li.e {  
-  animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 1100ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 1100ms 1 normal running forwards;
+  animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 1100ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 1100ms 1 normal forwards;
 }
 .section-brief-intro ul li.f {  
-  animation: fade-in 1s ease 1300ms 1 normal running forwards;
-  -moz-animation: fade-in 1s ease 1300ms 1 normal running forwards;
-  -webkit-animation: fade-in 1s ease 1300ms 1 normal running forwards;
-  -o-animation: fade-in 1s ease 1300ms 1 normal running forwards;
+  animation: fade-in 1s ease 1300ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 1300ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 1300ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 1300ms 1 normal forwards;
 }
 
 .section-brief-intro ul blockquote {
-  animation: fade-in 2s ease 2000ms 1 normal running forwards;
-  -moz-animation: fade-in 2s ease 2000ms 1 normal running forwards;
-  -webkit-animation: fade-in 2s ease 2000ms 1 normal running forwards;
-  -o-animation: fade-in 2s ease 2000ms 1 normal running forwards;
+  animation: fade-in 2s ease 2000ms 1 normal forwards;
+  -moz-animation: fade-in 2s ease 2000ms 1 normal forwards;
+  -webkit-animation: fade-in 2s ease 2000ms 1 normal forwards;
+  -o-animation: fade-in 2s ease 2000ms 1 normal forwards;
 }
