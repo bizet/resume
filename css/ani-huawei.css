@@ -1,0 +1,43 @@
+#section-huawei,
+#section-huawei p,
+#section-huawei h2 {
+  opacity: 0;
+}
+.section-huawei {
+  animation: fade-in 1s ease 300ms 1 normal running forwards;
+  -moz-animation: fade-in 1s ease 300ms 1 normal running forwards;
+  -webkit-animation: fade-in 1s ease 300ms 1 normal running forwards;
+  -o-animation: fade-in 1s ease 300ms 1 normal running forwards;
+}
+
+@keyframes huawei-img {
+  0% {margin-left: 30em;}
+  100% {margin-left: 0;}
+}
+@-moz-keyframes huawei-img {
+  0% {margin-left: 30em;}
+  100% {margin-left: 0;}
+}
+@-webkit-keyframes huawei-img {
+  0% {margin-left: 30em;}
+  100% {margin-left: 0;}
+}
+@-o-keyframes huawei-img {
+  0% {margin-left: 30em;}
+  100% {margin-left: 0;}
+}
+
+.section-huawei img {
+  animation: huawei-img 1s ease 100ms 1 normal running forwards;
+  -moz-animation: huawei-img 1s ease 100ms 1 normal running forwards;
+  -webkit-animation: huawei-img 1s ease 100ms 1 normal running forwards;
+  -o-animation: huawei-img 1s ease 100ms 1 normal running forwards;
+}
+
+.section-huawei p,
+.section-huawei h2 {
+  animation: fade-in 1s ease 1100ms 1 normal running forwards;
+  -moz-animation: fade-in 1s ease 1100ms 1 normal running forwards;
+  -webkit-animation: fade-in 1s ease 1100ms 1 normal running forwards;
+  -o-animation: fade-in 1s ease 1100ms 1 normal running forwards;
+}
