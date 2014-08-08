@@ -28,16 +28,22 @@
 }
 
 .section-huawei img {
-  animation: huawei-img 1s ease 100ms 1 normal forwards;
-  -moz-animation: huawei-img 1s ease 100ms 1 normal forwards;
-  -webkit-animation: huawei-img 1s ease 100ms 1 normal forwards;
-  -o-animation: huawei-img 1s ease 100ms 1 normal forwards;
+  animation: huawei-img 1500ms ease 100ms 1 normal forwards;
+  -moz-animation: huawei-img 1500ms ease 100ms 1 normal forwards;
+  -webkit-animation: huawei-img 1500ms ease 100ms 1 normal forwards;
+  -o-animation: huawei-img 1500ms ease 100ms 1 normal forwards;
 }
 
-.section-huawei p,
+.section-huawei p {
+  animation: fade-in 1s ease 1800ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 1800ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 1800ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 1800ms 1 normal forwards;
+}
+
 .section-huawei h2 {
-  animation: fade-in 1s ease 1100ms 1 normal forwards;
-  -moz-animation: fade-in 1s ease 1100ms 1 normal forwards;
-  -webkit-animation: fade-in 1s ease 1100ms 1 normal forwards;
-  -o-animation: fade-in 1s ease 1100ms 1 normal forwards;
+  animation: fade-in 1s ease 700ms 1 normal forwards;
+  -moz-animation: fade-in 1s ease 700ms 1 normal forwards;
+  -webkit-animation: fade-in 1s ease 700ms 1 normal forwards;
+  -o-animation: fade-in 1s ease 700ms 1 normal forwards;
 }
