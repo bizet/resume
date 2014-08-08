@@ -2,8 +2,8 @@
   opacity: 0;
 }
 .section-end {
-  animation: fade-in 3s ease 300ms 1 normal forwards;
-  -moz-animation: fade-in 3s ease 300ms 1 normal forwards;
-  -webkit-animation: fade-in 3s ease 300ms 1 normal forwards;
-  -o-animation: fade-in 3s ease 300ms 1 normal forwards;
+  animation: fade-in 3s ease 800ms 1 normal forwards;
+  -moz-animation: fade-in 3s ease 800ms 1 normal forwards;
+  -webkit-animation: fade-in 3s ease 800ms 1 normal forwards;
+  -o-animation: fade-in 3s ease 800ms 1 normal forwards;
 }

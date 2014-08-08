@@ -1,7 +1,6 @@
-define(['config', 'model/animate.model'], function(__Conf, __Animate) {
+define(['config', 'model/animate.model', 'control/event.center'], function(__Conf, __Animate, __Event) {
   return new (function(){
-    this.init = function() {
-      var init_win_width = $(window).width();
+    var revert = function() {
       var sections = [];
       sections.push(new __Animate({
         elem: $('#section-basic-info'),
@@ -23,11 +22,14 @@ define(['config', 'model/animate.model'], function(__Conf, __Animate) {
         elem: $('#section-end'),
         animate_css: 'section-end',
       }));
+      $(sections).each(function() {
+        this.revert();
+      });
       $(window).scroll(function() {
         $(sections).each(function() {
           this.scroll();
         });
-      })
+      });
       $(window).resize(function() {
         var width = $(window).width();
         if (width < 600) width = 600;
@@ -37,8 +39,13 @@ define(['config', 'model/animate.model'], function(__Conf, __Animate) {
           this.resize(width);
           this.scroll();
         });
-      })
+      });
+    };
+    this.init = function() {
+      __Event.register('Animate', this);
+      __Event.on('Animate', 'revert', revert);
+      revert();
       $(window).resize();
-    }
+    };
   })();
 });

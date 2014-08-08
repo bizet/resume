@@ -12,6 +12,7 @@ require(['requirejs.config'] , function() {
         */
         __Lang.init();
         __Animate.init();
+        $('#chose_lang').find('[lang=zh]').click();
           
       });
     });

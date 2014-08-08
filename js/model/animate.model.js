@@ -14,6 +14,10 @@ define(['jquery'], function($) {
     this.done = false;
   };
   User.prototype =  {
+    revert: function() {
+      this.elem.removeClass(this.animate_css);
+      this.done = false;
+    },
     scroll: function() {
       if (!this.done) {
         //if (pos >= this.scroll_pos) {

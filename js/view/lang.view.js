@@ -1,4 +1,4 @@
-define(['config'], function(__Conf) {
+define(['config', 'control/event.center'], function(__Conf, __Event) {
   return new (function(){
     var fill_lang_str = function(lang) {
       $('*[str]').each(function() {
@@ -13,10 +13,13 @@ define(['config'], function(__Conf) {
         $(this).children().css('font-weight', 'normal');
         d.css('font-weight', 'bold');
         fill_lang_str(d.attr('lang'));
+        $('section').each(function() {
+          $(this).replaceWith($(this).clone());
+        });
+        __Event.trigger('Animate', 'revert');
         $(window).resize();
       });
       
-      $('#chose_lang').find('[lang=zh]').click();
     }
   })();
 });
